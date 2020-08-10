@@ -2,9 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {
+/* .alert-container {
 
-}
+} */
 
 .callout-container {
     height: 100vh;
@@ -20,17 +20,29 @@ body {
     justify-content: center;
 }
 
-.quotes-container {
+/* .quotes-container {
 
 }
 
 .features-container {
 
-}
+} */
 
 /* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+    color: black;
+}
+
 .jumbotron-header {
-    color: white;
+    color: black;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
